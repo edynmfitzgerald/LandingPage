@@ -87,6 +87,11 @@ position: sticky;
     position: relative;
     z-index: 5;
 text-align: center;
+bottom: 300px;
+}
+
+#about h1{
+    font-family: 'Metal Mania';
 }
 
 #signup{
@@ -131,4 +136,24 @@ input[type=text], input[type=password] {
   
   button:hover {
     opacity:1;
+  }
+
+  #intro{
+    color: white;
+    position: relative;
+    z-index: 4;
+    bottom: 700px;
+    left: 100px;
+  }
+  #intro h1{
+    text-align: center;
+    font-family: 'Metal Mania';
+    color: white;
+    font-size: 50px;
+  }
+
+  #intro button{
+    width: 200px;
+    position: relative;
+    left: 600px;
   }
