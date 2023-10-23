@@ -102,7 +102,7 @@ bottom: 300px;
     width: 200px;
     bottom: 600px;
     left: 200px;
-    color: white;
+    color: red;
 }
 
 #container h1{
@@ -117,6 +117,7 @@ input[type=text], input[type=password] {
     display: inline-block;
     border: black 5px solid;
     background: #f1f1f1;
+    border-radius: 10px;
   }
   
   input[type=text]:focus, input[type=password]:focus {
@@ -132,6 +133,7 @@ input[type=text], input[type=password] {
     border: none;
     width: 100%;
     opacity: 0.9;
+    border-radius: 5px;
   }
   
   button:hover {
@@ -157,5 +159,3 @@ input[type=text], input[type=password] {
     position: relative;
     left: 600px;
   }
-
-  
