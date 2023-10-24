@@ -70,8 +70,7 @@ position: sticky;
 }
 
 #nav:hover{
-    background-color: red;
-    background-size: cover;
+    -webkit-text-stroke: red 1px;
 }
 
 #content h1{
@@ -80,14 +79,16 @@ position: sticky;
     left: 90px;
     bottom: 40px;
     position: relative;
+    -webkit-text-stroke: 0.5px red;
 }
 
 #about{
-    color: white;
+    color: red;
     position: relative;
     z-index: 5;
 text-align: center;
-bottom: 300px;
+bottom: 90px;
+-webkit-text-stroke: 0.5px darkred;
 }
 
 #about h1{
@@ -146,16 +147,39 @@ input[type=text], input[type=password] {
     z-index: 4;
     bottom: 700px;
     left: 100px;
+    
   }
   #intro h1{
     text-align: center;
     font-family: 'Metal Mania';
     color:  red;
     font-size: 50px;
+    -webkit-text-stroke: 0.5px darkred;
   }
 
   #intro button{
     width: 200px;
     position: relative;
     left: 600px;
+  }
+
+  #decal{
+    position: relative;
+    bottom: 950px;
+    color: red;
+    z-index: 4;
+    font-size: 90px;
+    left: 755px;
+    -webkit-text-stroke: 5px black;
+  } 
+
+  #links{
+    font-size: 40px;
+    -webkit-text-stroke: 2px red;
+    color: darkred;
+  }
+
+  #descrip{
+    -webkit-text-stroke: white;
+    color: black;
   }
